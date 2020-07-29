@@ -1,6 +1,6 @@
 # Highest pokedex number of available pokemon set
 LOW_BOUND = 1
-HIGH_BOUND = 15
+HIGH_BOUND = 18
 
 Pokedex = {
     1: {
@@ -122,5 +122,29 @@ Pokedex = {
         'Evolve_Lv': -1,
         'Evolve_To': -1,
         'Image_url': 'https://img.pokemondb.net/artwork/large/beedrill.jpg'
-       }   
+       },
+      16: {
+        'Name': 'Pidgey',
+        'Type': ['Normal', 'Flying'],
+        'Ability': 'Keen Eye',
+        'Evolve_Lv': 18,
+        'Evolve_To': 36,
+        'Image_url': 'https://img.pokemondb.net/artwork/large/pidgey.jpg'
+       },
+   17: {
+        'Name': 'Pidgeotto',
+        'Type': ['Normal', 'Flying'],
+        'Ability': 'Keen Eye',
+        'Evolve_Lv': 18,
+        'Evolve_To': 36,
+        'Image_url': 'https://img.pokemondb.net/artwork/large/pidgeotto.jpg'
+       },
+   18: {
+        'Name': 'Pidgeot',
+        'Type': ['Normal', 'Flying'],
+        'Ability': 'Keen Eye',
+        'Evolve_Lv': 18,
+        'Evolve_To': 36,
+        'Image_url': 'https://img.pokemondb.net/artwork/large/pidgeot.jpg'
+       }
 }
